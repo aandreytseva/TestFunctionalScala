@@ -1,6 +1,7 @@
-package org.example
+package org.example.service
 
-import org.example.Privileges.Privilege
+import org.example.domain.Privileges.Privilege
+import org.example.domain.User
 
 trait UserService {
   def getFirstNamesReverseSorted(users: List[User]): List[String]

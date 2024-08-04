@@ -1,6 +1,7 @@
-package org.example
+package org.example.service
 
-import org.example.Privileges.Privilege
+import org.example.domain.Privileges.Privilege
+import org.example.domain.User
 
 class UserServiceImpl extends UserService {
   override def getFirstNamesReverseSorted(users: List[User]): List[String] =

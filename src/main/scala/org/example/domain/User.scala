@@ -1,6 +1,6 @@
-package org.example
+package org.example.domain
 
-import org.example.Privileges.Privilege
+import org.example.domain.Privileges.Privilege
 
 class User(val userId: Long, val firstName: String, val lastName: String, val age: Int, val privileges: List[Privilege]) {
 

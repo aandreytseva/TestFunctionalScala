@@ -1,4 +1,4 @@
-package org.example
+package org.example.domain
 
 object Privileges extends Enumeration {
   type Privilege = Value

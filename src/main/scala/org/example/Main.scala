@@ -1,6 +1,8 @@
 package org.example
 
-import org.example.Privileges._
+import org.example.domain.Privileges._
+import org.example.domain.User
+import org.example.service.UserServiceImpl
 
 object Main extends App {
 
